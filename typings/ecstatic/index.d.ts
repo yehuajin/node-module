@@ -1,6 +1,6 @@
 declare module 'ecstatic';
-// declare module "ecstatic" {
-//   interface opt {
+// declare module 'ecstatic' {
+//   export default (options?: {
 //     root?: string;
 //     baseDir?: string;
 //     autoIndex?: boolean;
@@ -13,13 +13,12 @@ declare module 'ecstatic';
 //     cors?: boolean;
 //     gzip?: boolean;
 //     brotli?: boolean;
-//     defaultExt?: "html" | (string & {});
+//     defaultExt?: 'html' | string & {};
 //     handleError?: boolean;
 //     serverHeader?: boolean;
-//     contentType?: "application/octet-stream" | (string & {});
+//     contentType?: 'application/octet-stream' | string & {};
 //     weakEtags?: boolean;
 //     weakCompare?: boolean;
 //     handleOptionsMethod?: boolean;
-//   }
-//   export default (otions: opt) => any;
+//   }) => any;
 // }
